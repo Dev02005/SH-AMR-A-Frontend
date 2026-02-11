@@ -1,1 +1,0 @@
-# SH-AMR-A-Frontend
