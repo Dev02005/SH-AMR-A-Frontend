@@ -287,7 +287,7 @@
 <body>
   <div class="page-shell">
     <header class="header">
-      <h1><span class="brand-s">S</span><span class="brand-amp">&amp;</span><span class="brand-h">H</span> ARABIAN MANDI RESTAURANT</h1>
+      <h1><span class="brand-s">S</span><span class="brand-amp" style="color:#f5f5f5;">&amp;</span><span class="brand-h">H</span> ARABIAN MANDI RESTAURANT</h1>
       <h3>Mandi | Chinese | Tandoori | Meals | Snacks | Biryani</h3>
       <p style="margin:2px 0 0;color:#888;font-size:11px;font-style:italic;">Billing Portal</p>
     </header>
@@ -296,7 +296,7 @@
       <div class="login-box">
         <div class="login-header">
           <h1>Login</h1>
-          <p><span class="brand-s">S</span><span class="brand-amp">&amp;</span><span class="brand-h">H</span> ARABIAN MANDI RESTAURANT</p>
+          <p><span class="brand-s">S</span><span class="brand-amp" style="color:#f5f5f5;">&amp;</span><span class="brand-h">H</span> ARABIAN MANDI RESTAURANT</p>
           <p>Mandi | Chinese | Tandoori | Meals | Snacks | Biryani</p>
           <p style="margin:4px 0 0;color:#888;font-size:11px;font-style:italic;">Billing Portal</p>
         </div>
@@ -413,7 +413,7 @@
           if (data.user && data.user.role === 'waiter') {
             window.location.replace('/server-index.html');
           } else {
-            window.location.replace('/');
+            window.location.replace('index.html');
           }
         } else {
           const detail = data.detail ? ` - ${data.detail}` : '';
